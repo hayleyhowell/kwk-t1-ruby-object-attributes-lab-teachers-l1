@@ -3,5 +3,7 @@ class Person
     @name 
   end 
   
-  def name=
+  def name=(newName)
+    @name = newName
+  end
 end
